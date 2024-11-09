@@ -1,0 +1,38 @@
+.sidebar-section {
+    display: flex;
+    flex-direction: column;
+
+    position: fixed;
+    top: 0;
+    align-items: center;
+    background-color: #fafafa;
+    height: 100vh;
+    width: 242px;
+    gap: 2em;
+}
+
+.sidebar-section-main-menu {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sidebar-section-main-menu-dashboard-content {
+    display: flex;
+
+    align-items: center;
+    gap: 1em;
+    color: #686868;
+    font-size: 1.2em;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.selected {
+    color: #FF5151;
+}
+
+/* 
+.sidebar-section-main-menu-dashboard-text {
+    display: none;
+} */

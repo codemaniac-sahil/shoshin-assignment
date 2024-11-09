@@ -1,0 +1,133 @@
+/* .dashboard-section {
+    position: absolute;
+    top: 5em;
+    left: 292px;
+    width: 80%;
+} */
+
+.dashboard-section-hero-stats-container {
+    display: flex;
+    gap: 1em;
+}
+
+.dashboard-section-hero {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.dashboard-section-hero-text {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.dashboard-section-company-stats-container {
+    display: flex;
+    gap: 2em;
+}
+
+.company-employee-stats-left-text {
+    font-size: 12px;
+    font-weight: 400;
+    color: #303030;
+    background-color: #FFEFE7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dashboard {
+    display: flex;
+    position: absolute;
+    top: 5em;
+    left: 292px;
+    width: 80%;
+    gap: 2em;
+}
+
+.dashboard-section-recent-activity-box {
+    width: 427px;
+    height: 258px;
+    background-color: #161E54;
+    border-radius: 10px;
+}
+
+.dashboard-section-recent-activity {
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.dashboard-section-recent-activity-box-header {
+    background-color: #1B204A;
+    border-radius: 10px;
+    padding: 10px 24px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.dashboard-section-recent-activity-box-info-text {
+    padding: 24px 24px;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.time {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.header {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.dashboard-section-recent-activity-box-info {
+    width: 350px;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.dashboard-section-recent-activity-box-info-button {
+    padding: 0px 24px;
+    color: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.button button {
+    padding: 10px 16px;
+    border: 0;
+    background-color: #FF5151;
+    color: #fff;
+    border-radius: 4px;
+
+}
+
+.dashboard-section-upcoming-schedule-box {
+    border: 1px solid #E0E0E0;
+    width: 427px;
+    height: auto;
+    border-radius: 12px;
+    padding: 10px 16px;
+}
+
+.priority {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 1em;
+}

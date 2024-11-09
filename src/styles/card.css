@@ -1,0 +1,47 @@
+.card-section {
+    display: flex;
+    flex-direction: column;
+    width: 204px;
+    height: 136px;
+    padding: 12px 20px;
+    gap: 1em;
+    border-radius: 10px;
+}
+
+.card-section-definition {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-section-definition-number {
+    font-size: 36px;
+}
+
+.card-section-definition-msg {
+    font-size: 16px;
+}
+
+.red {
+    background-color: #FFEFE7;
+}
+
+.blue {
+    background-color: #E8F0FB;
+}
+
+.pink {
+    background-color: #FDEBF9;
+}
+
+.red>.card-section-definition-msg {
+    color: #FF5151;
+}
+
+.blue>.card-section-definition-msg {
+    color: #3786F1;
+
+}
+
+.pink>.card-section-definition-msg {
+    color: #EE61CF;
+}

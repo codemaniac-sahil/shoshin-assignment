@@ -1,0 +1,32 @@
+.company-employee-stats {
+    display: flex;
+    align-items: center;
+    width: 312px;
+    height: 190px;
+    padding: 20px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+
+}
+
+.company-employee-stats-right-text-header {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.company-employee-stats-right {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.company-employee-stats-right-text-number {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.company-employee-stats-right-text-gender {
+    font-size: 12px;
+    font-weight: 400;
+    color: #686868;
+}

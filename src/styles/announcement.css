@@ -1,0 +1,78 @@
+.announcement-section-box {
+    height: auto;
+    width: 640px;
+    border: 1px solid #E0E0E0;
+    border-radius: 12px;
+    padding: 12px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.announcement-section-box-header {
+    display: flex;
+}
+
+.announcement-section-box-header-text {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.announcement-section-box-header-text>.announcement-text {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.announcement-section-box-header-text>.announcement-date select {
+    border: 1px solid #EFEFEF;
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    color: #686868;
+}
+
+.announcement-table-card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fafafa;
+    padding: 12px 16px;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.announcement-table {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.right-header {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.right-time {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.right-header p {
+    width: 100%;
+}
+
+.announcement-table-card-right {
+    width: 405px;
+}
+
+.seeallannouncement {
+    /* padding: 10px; */
+    text-align: center;
+    color: #FF5151;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.announcement-table-card-left {
+    font-size: 20px;
+}
